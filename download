@@ -1,0 +1,28 @@
+# ---------------- Python ----------------
+__pycache__/
+*.pyc
+*.pyo
+
+# ---------------- Environment ----------------
+.env
+
+# ---------------- Database ----------------
+*.db
+instance/
+
+# ---------------- Uploads & Runtime Data ----------------
+uploads/
+static/faculty/
+static/images/
+receipts/
+
+# ---------------- Admin / One-time scripts ----------------
+create_admin.py
+reset_admin_password_once.py
+gg.py
+
+# ---------------- OS / Editor ----------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
